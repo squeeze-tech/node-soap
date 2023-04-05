@@ -1,8 +1,8 @@
 /// <reference types="node" />
 /// <reference types="node" />
-import * as req from 'axios';
-import { ReadStream } from 'fs';
-import { IExOptions, IHeaders, IHttpClient, IOptions } from './types';
+import * as req from "axios";
+import { ReadStream } from "fs";
+import { IExOptions, IHeaders, IHttpClient, IOptions } from "./types";
 export interface IAttachment {
     name: string;
     contentId: string;
